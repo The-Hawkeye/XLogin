@@ -47,11 +47,11 @@ function App() {
           Password:
           <input
             label="Password"
-            type="password" // Change type to "password" for password fields
+            type="password" 
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            pattern=".{8,}" // Example: Requires at least 8 characters
+            pattern=".{8,}" 
             title="Password must be at least 8 characters long"
             placeholder="password"
           />
