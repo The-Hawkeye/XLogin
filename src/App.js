@@ -26,7 +26,7 @@ function App() {
   return (
   
     <div className="App">
-  <h1>Login page</h1>
+  <h1>Login Page</h1>
   {click ? (
     <h4>{submit}</h4>
   ) : (
