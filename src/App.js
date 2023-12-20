@@ -15,7 +15,7 @@ function App() {
     e.preventDefault();
     if(username ==="user"&&password==="password")
     {
-      setSubmit( "Welcome, user");
+      setSubmit( "Welcome, user!");
     }
     else 
     setSubmit("Invalid username or password");
