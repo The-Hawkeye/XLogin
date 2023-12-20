@@ -33,7 +33,8 @@ function App() {
     <>
       <form onSubmit={(e) => handleSubmit(e)}>
        <div>
-          Username:
+       <label>Username:</label>
+          
           <input
             label="Username"
             type="text"
@@ -44,7 +45,8 @@ function App() {
           />
         </div>
         <div>
-          Password:
+        <label>  Password:</label>
+        
           <input
             label="Password"
             type="password" 
