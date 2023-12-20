@@ -13,7 +13,7 @@ function App() {
 
   const handleSubmit = (e)=>{
     e.preventDefault();
-    if(username ==="Crio"&&password==="password")
+    if(username ==="user"&&password==="password")
     {
       setSubmit( "Welcome, user");
     }
